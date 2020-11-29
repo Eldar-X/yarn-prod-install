@@ -1,0 +1,15 @@
+**/node_modules
+**/.temp
+**/dist
+**/*.Dockerfile
+**/DockerFile
+**/docker-compose.*
+
+.git
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
