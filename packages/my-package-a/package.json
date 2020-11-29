@@ -1,0 +1,11 @@
+{
+  "name": "@corp/my-package-a",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "yarn node dist/index.js"
+  },
+  "dependencies": {
+
+    "@corp/my-package-b": "workspace:*"
+  }
+}
